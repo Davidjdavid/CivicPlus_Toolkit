@@ -1,0 +1,599 @@
+<html>
+
+<head>
+  <title>CivicPlus Internal Toolkit - Changelog</title>
+  <link rel="stylesheet" type="text/css" href="../css/external/bootstrap.min.css" />
+  <script type="text/javascript" src="../js/external/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="../js/external/popper.min.js"></script>
+  <script type="text/javascript" src="../js/external/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/changelog.css" />
+  <link rel="stylesheet" type="text/css" href="../css/global.css" />
+  <link rel="stylesheet" type="text/css" href="../css/external/fontawesome-all.min.css" />
+</head>
+
+<body>
+  <div id="top-banner">
+    <div id="main-title"><img src="../images/wordmark.png" alt="CivicPlus"></div>
+    <div id="sub-title"><i class="fas fa-wrench"></i>Internal Toolkit</div>
+  </div>
+  <div id="outerWrap">
+    <h1>Changelog</h1>
+    <hr>
+    <div id="message"></div>
+    <div id="version-list">
+      <div class="version v1.14.8">
+        <h4>Version 1.14.8</h4>
+        <h5>Fix</h5>
+        <div><i>Mavenlink Tools: </i> Update to fix authentication issues after a Mavenlink change. </div>
+      </div>
+      <div class="version v1.14.6">
+        <h4>Version 1.14.6</h4>
+        <h5>Fix</h5>
+        <div><i>Google Translate: </i> Converted to version recommended by PE. </div>
+      </div>
+      <div class="version v1.14.4">
+        <h4>Version 1.14.4</h4>
+        <h5>Fix</h5>
+        <div><i>Setup Defaults v2: </i> Further tweaks/alignment with process. </div>
+      </div>
+      <div class="version v1.14.3">
+        <h4>Version 1.14.3</h4>
+        <h5>Fix</h5>
+        <div><i>Setup Defaults v2: </i> Now adds/enables sub menu indicators on fly outs</div>
+        <div><i>Insert Powered By: </i> Cleaned up CSS for easier editing</div>
+      </div>
+      <div class="version v1.14.2">
+        <h4>Version 1.14.2</h4>
+        <h5>New Features</h5>
+        <div><i>Setup Defaults v2: </i> Now sets HR width/style. </div>
+      </div>
+      <div class="version v1.14.1">
+        <h4>Version 1.14.1</h4>
+        <h5>New Features</h5>
+        <div><i>Setup Defaults v2: </i> Moved search bar width into system, and auto add padding to powered by container
+          on mobile. </div>
+      </div>
+      <div class="version v1.14.0">
+        <h4>Version 1.14.0</h4>
+        <h5>New Features</h5>
+        <div><i>Setup Defaults v2: </i> Improved banner height/padding. All config should be in the system. </div>
+      </div>
+      <div class="version v1.13.5">
+        <h4>Version 1.13.5</h4>
+        <h5>New Features</h5>
+        <div><i>Import Links: </i> ROLLBACK: No longer detects broken links (Was causing unnecessary delays, since those
+          links need to be checked manually anyway...) </div>
+      </div>
+      <div class="version v1.13.2">
+        <h4>Version 1.13.2</h4>
+        <h5>New Features</h5>
+        <div><i>Import Links: </i> Now detects broken links and ensures those links do not get published. (Warning: If
+          link is broken, it may cause up to a ~15 second delay waiting for it to fully timeout.) </div>
+      </div>
+      <div class="version v1.13.0">
+        <h4>Version 1.13.0</h4>
+        <h5>New Features</h5>
+        <div><i>UltiPro Learning Hours Helper: </i> This tool makes tracking learning hours on UltiPro a bit easier.
+        </div>
+      </div>
+      <div class="version v1.12.0">
+        <h4>Version 1.12.0</h4>
+        <h5>Enhancements</h5>
+        <div><i>Copy Links: </i> Finds all links that are within the users selection and copies data to clipboard </div>
+        <div><i>Copy Links: </i>
+          Tool to be used in conjunction with "Copy Links". Create a category and import
+          from anywhere on a CP site. If you are within a specific category of quick
+          links module, it <b><i>should</i></b> add them to the current category. </div>
+      </div>
+      <div class="version v1.11.0">
+        <h4>Version 1.11.0</h4>
+        <h5>Enhancements</h5>
+        <div><i>Setup Defaults: </i> Now assigns default skins based on new XML template. </div>
+        <h5>Deprecations</h5>
+        <div>
+          <i>Deprecations: </i> Added alerts to several scripts that seem to be unused stating that they will be
+          removed in a future version of the toolkit. If you still use any of these scripts, please contact a web dev.
+        </div>
+      </div>
+      <div class="version v1.10.0">
+        <h4>Version 1.10.0</h4>
+        <h5>Enhancements</h5>
+        <div>
+          <i>Setup Mega Menu: </i>
+          On Demand script to set skin, format, column count, and depth on all main navigation items which have mega
+          menu enabled.
+        </div>
+        <div>
+          <i>Setup Defaults V2: </i>
+          Added default skin tab arrows to CSS, dsigners will no longer need to export assets for these.<br>
+          Minor config tweaks.
+        </div>
+        <div>
+          <i>Setup Quick Links: </i>
+          Removed randomization/async requests.
+        </div>
+        <div>
+          <i>Google Translate: </i>
+          Improved structure to allow for static positioning, rather than fixed.
+        </div>
+
+        <h5>Bug Fixes</h5>
+        <div>
+          <i>Insert Government Websites by CivicPlus </i>
+          Fixed format of style block.
+        </div>
+      </div>
+      <div class="version v1.9.4">
+        <h4>Version 1.9.4</h4>
+        <h5>Enhancements</h5>
+        <div>
+          <i>Setup Defaults V2: </i>
+          Moved secondary navigation colors to confirm prompt.
+        </div>
+        <div>
+          <i>Insert Government Websites by CivicPlus </i>
+          Converted to use an SVG, which is colorable in CSS. Designers no longer need to export the CP logo.
+        </div>
+      </div>
+      <div class="version v1.9.3">
+        <h4>Version 1.9.1-1.9.3</h4>
+        <h5>Enhancements</h5>
+        <div>
+          <i>Setup Defaults V2: </i>
+          Minor tweaks to config.
+        </div>
+      </div>
+      <div class="version v1.9.0">
+        <h4>Version 1.9.0</h4>
+        <h5>Enhancements</h5>
+        <div>
+          <i>Setup Defaults V2: </i>
+          Added default options for theme, features, footer, mega menu,
+          graphic button skins, as well as fixes to align with expectations.
+        </div>
+      </div>
+      <div class="version v1.8.1">
+        <h4>Version 1.8.1</h4>
+        <h5>Bug Fix</h5>
+        <div><i>ADFS: </i>Fix for certain sites not redirecting.</div>
+      </div>
+      <div class="version v1.8.0">
+        <h4>Version 1.8.0</h4>
+        <h5>Enhancements</h5>
+        <div><i>Setup Defaults V2: </i>New "Setup Defaults" tool with expanded functionality which is also synced with
+          the default photoshop template.</div>
+        <div><i>Google Translate: </i>Changed icon to use google official branding.</div>
+        <h5>Bug Fixes</h5>
+        <div><i>Context Menus: </i>Right click menu will now always show the proper menu regardless of if all items
+          loaded.</div>
+        <div><i>Changelog.js: </i>Fixed crashes with missing version numbers.</div>
+      </div>
+      <div class="version v1.7.2">
+        <h4>Version 1.7.2</h4>
+        <h5>Bug Fix</h5>
+        <div><i>Mavenlink Import/Export: </i>Remove extraneous logging.</div>
+      </div>
+      <div class="version v1.7.1">
+        <h4>Version 1.7.1</h4>
+        <h5>Bug Fix</h5>
+        <div><i>Mavenlink Import/Export: </i>Improve CSV splitting to account for escaped strings.</div>
+        <div><i>Copy Google Translate: </i>Add dropdown arrow to container and better position hidden elements.</div>
+      </div>
+      <div class="version v1.7">
+        <h4>Version 1.7</h4>
+        <h5>Bug Fix</h5>
+        <div><i>Copy Google Translate Script (on-demand-tool): </i>Further fixes to resolve cross-browser compatibility
+          issue.</div>
+      </div>
+      <div class="version v1.6.9">
+        <h4>Version 1.6.9</h4>
+        <h5>Bug Fix</h5>
+        <div><i>Copy Google Translate Script (on-demand-tool): </i>Resolved iOS compatibility issue.</div>
+      </div>
+      <div class="version v1.6.8">
+        <h4>Version 1.6.8</h4>
+        <h5>Bug Fix</h5>
+        <div><i>Copy Google Translate Script (on-demand-tool): </i>Resolved browser compatibility issue.</div>
+      </div>
+      <div class="version v1.6.7">
+        <h4>Version 1.6.7</h4>
+        <h5>Bug Fix</h5>
+        <div><i>Mavenlink Generate Client Timeline (on-demand-tool): </i>Resolved incorrect date issue.</div>
+      </div>
+      <div class="version v1.6.6">
+        <h4>Version 1.6.6</h4>
+        <h5>Bug Fix</h5>
+        <div><i>Mavenlink Generate Client Timeline (on-demand-tool): </i>Resolved incorrect due date issue.</div>
+      </div>
+      <div class="version v1.6.5">
+        <h4>Version 1.6.5</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>Mavenlink Generate Client Timeline (on-demand-tool): </i>Changed date format from YYYY-DD-MM to
+          MM/DD/YYYY.</div>
+      </div>
+      <div class="version v1.6.3">
+        <h4>Version 1.6.3</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>Mavenlink Import/Export Tools: </i>Allow clearing a custom field on import.</div>
+        <h5>Removed Features</h5>
+        <div><i>Pretty Login Loading: </i>Platform login page updated, no longer needed.</div>
+      </div>
+      <div class="version v1.6.2">
+        <h5>Feature Enhancements</h5>
+        <div><i>Mavenlink Import/Export Tools: </i>Fixed custom field import issue on projects with more than 20 custom
+          fields already set.</div>
+        <h5>Bug Fixes</h5>
+        <div><i>Insert Government Websites by CivicPlus byline (on-demand-tool): </i>Fixed an ADA issue.</div>
+        <div><i>Setup default Quick Links (on-demand-tool): </i>Added prompt on complete.</div>
+        <div><i>Setup popular Quick Links (on-demand-tool): </i>Added prompt on complete.</div>
+        <div><i>Setup default Widget Options (on-demand-tool): </i>Added prompt on complete.</div>
+      </div>
+      <div class="version v1.6.1">
+        <h4>Version 1.6.1</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>Mavenlink Generate Client Timeline (on-demand-tool): </i>Fixed a timing issue where tasks did not always
+          load correctly.</div>
+      </div>
+      <div class="version v1.6.0">
+        <h4>Version 1.6.0</h4>
+        <h5>New Features</h5>
+        <div><i>Upload Fancy Button: </i>Allows you to select a Fancy Button from the default Gallery and upload it to a
+          site.</div>
+        <div><i>Mavenlink Generate Client Timeline (on-demand-tool): </i>Allows you to generate a branded project
+          timeline to share with clients.</div>
+        <h5>Feature Enhancements</h5>
+        <div><i>On-Demand Tools: </i>Updated the location that some tools were displaying in.</div>
+        <div><i>Upload Multiple News Flash Items: </i>Removed the "Select All" checkbox.</div>
+        <div><i>Copy Google Translate Script: </i>Updated Script to address Edge bug.</div>
+        <div><i>Setup Default Quick Links (on-demand-tool): </i>Added a counter to refresh once complete.</div>
+        <div><i>Setup Popular Quick Links (on-demand-tool): </i>Added a counter to refresh once complete.</div>
+      </div>
+      <div class="version v1.5.9">
+        <h4>Version 1.5.9</h4>
+        <h5>New Features</h5>
+        <div><i>Generate client PDF (on-dempand tool): </i>Generates a client guide to colors, fonts, and images from
+          any CivicPlus website.</div>
+        <div><i>Setup Default Quick Links (on-demand-tool): </i>Allows you to easily create the default Quick Links.
+        </div>
+        <div><i>Setup Popular Quick Links (on-demand-tool): </i>Allows you to easily create Popular Quick Links (i.e.
+          Accessibility, Home, Copyright, etc.).</div>
+        <div><i>Upload Multiple Quick Links: </i>Allows you to upload multiple Quick Links at a single time.</div>
+        <div><i>Upload Multiple Categories: </i>Allows you to upload multiple Categories at a single time for several
+          Modules.</div>
+        <div><i>Upload Multiple News Flash Items: </i>Allows you to upload a News Flash to several modules in Draft
+          Status.</div>
+        <div><i>Fix bad JavaScript (on-demand-tool): </i>Allows you to fix broken JavaScript in Custom HTML Widgets.
+        </div>
+        <div><i>Copy Google Translate (on-demand-tool): </i>Easily copy the mobile compatible Google Translate script.
+        </div>
+        <h5>Feature Enhancements</h5>
+        <div><i>SiteMap Export (on-demand-tool): </i>Improved speed + reliablity significantly.</div>
+        <div><i>Insert Government Websites by CivicPlus byline (on-demand-tool): </i>Replaced the referral link for
+          CivicPlus.</div>
+        <div><i>Setup Default Widget Options (on-demand-tool): </i>Increased speed significantly.</div>
+      </div>
+      <div class="version v1.5.8">
+        <h4>Version 1.5.8</h4>
+        <h5>New Features</h5>
+        <div><i>Convert HEX color to RGBA (on-dempand tool): </i>Converts a HEX color code to RGBA and copies the result
+          to the clipboard.</div>
+        <h5>Feature Enhancements</h5>
+        <div><i>Link Autofill: </i>Improved social media link detection.</div>
+        <div><i>Mavenlink Import/Export Tools: </i>Improved functionality, added custom field import tool.</div>
+        <div><i>Remember Image Picker State: </i>Fix bug where occasionally folder would not automatically open.
+          Improved performance.</div>
+      </div>
+      <div class="version v1.5.7">
+        <h4>Version 1.5.7</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>Mavenlink Import/Export Tools: </i>Implemented import tool functionality.</div>
+      </div>
+      <div class="version v1.5.6">
+        <h4>Version 1.5.6</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>Copy containers to another layout (on-demand tool): </i>Now copies container options (breakpoint,
+          alignment, and smooth scrolling) along with inheritance setting.</div>
+        <div><i>Remember Image Picker State: </i>Fix bug where all folders open.</div>
+      </div>
+      <div class="version v1.5.5">
+        <h4>Version 1.5.5</h4>
+        <h5>New Features</h5>
+        <div><i>Remember Image Picker State: </i>Automatically opens the last-opened folder in the image picker modal.
+        </div>
+        <h5>Feature Enhancements</h5>
+        <div><i>Mavenlink Import/Export Tools (on-demand tools): </i>Allow export by list of IDs, add import tool (work
+          in progress).</div>
+        <div><i>On-demand tools: </i>Removed "Run a tool" submenu and moved tools to menu root.</div>
+        <div><i>Setup default widget option sets (on-demand tool): </i>Added Left-aligned and right-aligned Info
+          Advanced option set.</div>
+      </div>
+      <div class="version v1.5.4">
+        <h4>Version 1.5.4</h4>
+        <h5>New Features</h5>
+        <div><i>Mavenlink Import/Export Tools (on-demand tools): </i>Tools for importing and exporting data from
+          Mavenlink.</div>
+      </div>
+      <div class="version v1.5.3">
+        <h4>Version 1.5.3</h4>
+        <h5>New Features</h5>
+        <div><i>Mavenlink Task Tracker Expander (on-demand tool): </i>Quickly expand all items in the task tracker view.
+        </div>
+      </div>
+      <div class="version v1.5.2">
+        <h4>Version 1.5.2</h4>
+        <h5>New Features</h5>
+        <div><i>CP Tools Site Status: </i>Displays the status of the site from CP Tools in the admin bar. You can click
+          the status to visit CP Tools for the site.</div>
+        <div><i>Create example news item (on-demand tool): </i>Fills example content on a news flash item.</div>
+        <div><i>Prepend text to widget skins (on-demand tool): </i>Quickly add text to all widget skins.</div>
+        <h5>Feature Enhancements</h5>
+        <div><i>Graphic Link Autofill: </i>Added alt text detection to standard Graphic Links. Added additional
+          replacement text.</div>
+        <div><i>Input Field Focuser: </i>Focuses the link name field first if available. Prevents tab from going to
+          toolbar on info advanced items.</div>
+        <div><i>Setup calendar widget skin (on-demand tool): </i>Adjusted highlight code.</div>
+        <div><i>Setup default option sets (on-demand tool): </i>Improved confirmation message. Removed columns from Info
+          Advanced since you can set them when placing the widget. The tool ensures advanced styles are blank.</div>
+        <div><i>Theme Manager Enhancer: </i>Fix horizontal scroll bar. Add field color on disabled widget skins.</div>
+        <div><i>Widget Skin Default Override: </i>Improved confirmation message.</div>
+      </div>
+      <div class="version v1.5.1">
+        <h4>Version 1.5.1</h4>
+        <h5>New Features</h5>
+        <div><i>Open all pages (on-demand tool): </i>Opens all pages from sitemap.</div>
+        <div><i>Widget Skin Default Override: </i>Overrides default options on new widget skins.</div>
+        <div><i>Update Notifier: </i>The toolkit icon will show "NEW" when new features are added. You can click the
+          icon to open the changelog. New installs will no longer open the changelog on update.</div>
+        <h5>Feature Enhancements</h5>
+        <div><i>Create Sitemap (on-demand tool): </i>Improved speed, better logging in console.</div>
+        <div><i>Input Field Focuser: </i>Now prevents field from selecting on click.</div>
+        <div><i>Mavenlink Quick Add: </i>Minor improvements, better error handling.</div>
+        <div><i>Pretty Login Loading: </i>Keeps track of time spent waiting on login.</div>
+        <div><i>Setup default option sets (on-demand tool): </i>Changed default carousel width to fit 3 items.</div>
+        <div><i>Site Detection: </i>Improved CivicPlus site detection.</div>
+        <div><i>Theme Manager Enhancer: </i>Fix widget skin input cut-off.</div>
+        <div><i>Widget Skin Advanced Style Helper: </i>Checks for invalid CSS brackets.</div>
+        <div><i>XML Change Alerts: </i>Moves breakpoint and error message above XML. Adds button to view layout page
+          from edit page. General bugfixes.</div>
+        <div><i>Other: </i>General improvements, including better debugging and improved changelog style.</div>
+      </div>
+      <div class="version v1.5.0">
+        <h4>Version 1.5.0</h4>
+        <h5>New Features</h5>
+        <div><i>Theme Manager Enhancer: </i>Minor fixes and enhancements to Theme Manager, including changing the
+          outline of the selected container in exploded view, unfixing the sticky structural container in exploded view,
+          and fixing a flashing
+          issue with sticky structural containers on hover.</div>
+        <div><i>Auto-Dismiss Help and Welcome Messages: </i>Automatically dismisses the "Welcome to the CivicPlus
+          Platform" message, the "Drag a widget" message, and the "Your changes are not yet visible to the public"
+          message.</div>
+        <h5>Feature Enhancements</h5>
+        <div><i>Download CSS and XML: </i>Moved from tool menu to Layout Manager page. Now allows download of any
+          layout.</div>
+        <div><i>Favorite Module Icons: </i>Fixed bug where icons wouldn't show up if site load time was unusually high.
+        </div>
+        <div><i>Mavenlink Quick Add: </i>Minor bug fixes and enhancements.</div>
+        <div><i>Omnibox Search: </i>Added CP Tools search. To use, type CP Tools in the omnibox, followed by the text to
+          search for of the site you want to open the CP Tools for. You will notice the results are prefixed with "CP
+          Tools:" when you are
+          opening the tools page.</div>
+        <div><i>Setup default widget option sets: </i>Fixed bug where tool wouldn't work if Enforce Advanced Styles Text
+          Limit was enabled. Added Horizontal Strip calendar option set. Changed calendar view all position to bottom
+          center.</div>
+        <div><i>Setup calendar widget skin: </i>Added 1em margin to bottom of mini calendar.</div>
+        <div><i>Setup default widget skin: </i>Added 2em of padding on left and right of view all link instead of .5em.
+        </div>
+        <div><i>Setup Graphic Links widget skin: </i>Change item padding to blank instead of 0.</div>
+        <div><i>Widget Skin Advanced Style Helper: </i>Fixed bug where if no other changes are made after the skin
+          number is automatically changed, the skin number change wouldn't take effect.</div>
+      </div>
+      <div class="version v1.4.2">
+        <h4>Version 1.4.2</h4>
+        <h5>New Features</h5>
+        <div><i>Mavenlink Quick Add: </i>Adds a button to allow you to quickly add yourself to a project in Mavenlink.
+        </div>
+        <h5>Feature Enhancements</h5>
+        <div><i>On-Demand Tools: </i>Updated to work on non-production sites.</div>
+        <div><i>Link Autofill: </i>Updated some links.</div>
+        <div><i>Widget Skin Advanced Style Helper: </i>Fixes skin focus.</div>
+        <div><i>Setup Share and Site Tools widget skin: (on-demand tool): </i>Correctly applies link color.</div>
+        <div><i>Setup default widget option sets: (on-demand tool): </i>Added additional options sets.</div>
+      </div>
+      <div class="version v1.4.1">
+        <h4>Version 1.4.1</h4>
+        <h5>New Features</h5>
+        <div><i>Copy widget skin component(s) to another widget skin (on-demand tool): </i>Allows you to copy part of a
+          widget skin to another widget skin.</div>
+        <div><i>Create Sitemap (on-demand tool): </i>Allows you to create a text sitemap of a site.</div>
+        <h5>Feature Enhancements</h5>
+        <div><i>Input Field Focuser: </i>No longer focuses date fields. Will not focus the default field if you focus a
+          different field before the tool loads.</div>
+        <div><i>Insert Government Websites by CivicPlus byline (on-demand tool): </i>Changed link.</div>
+        <div><i>Omnibox Search: </i>Fixed bug where first result wouldn't work as expected.</div>
+        <div><i>Setup default widget option set (on-demand tool): </i>Now clears out any view all images.</div>
+      </div>
+      <div class="version v1.4">
+        <h4>Version 1.4</h4>
+        <h5>New Features</h5>
+        <div><i>Omnibox Search: </i>To start searching for a CivicPlus site, click into the Omnibox and type "CP"
+          followed by a tab. You will see the toolkit activate, at which point you can start typing part of the name of
+          the site you want to
+          open. Pick the site from the result and press enter to open!</div>
+      </div>
+      <div class="version v1.3.6">
+        <h4>Version 1.3.6</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>On-Demand Tools: </i>Improved menu layout and help, fixed bug where sometimes tool would not run.</div>
+        <div><i>Setup default widget skin (on-demand tool): </i>Adds padding to tab panel top and bottom.</div>
+      </div>
+      <div class="version v1.3.5">
+        <h4>Version 1.3.5</h4>
+        <h5>Feature Enhancements</h5>
+        <div>Bugfix: Fix CivicPlus site detection.</div>
+        <h5>New Features</h5>
+        <div><i>Enforce Advanced Styles Text Limits: </i>Added tool. This tool enforces the 1000 character limit on
+          widget skins and the 255 character limit on widget option sets.</div>
+        <div><i>Widget Skin Advanced Style Helper: </i>Added tool. This tool will replace any selector for a widget skin
+          in its advanced styles with the correct selector.</div>
+        <h5>Removed Features</h5>
+        <div><i>Template List Tools: </i>No longer needed due to new template list.</div>
+      </div>
+      <div class="version v1.3.4">
+        <h4>Version 1.3.4</h4>
+        <h5>Feature Enhancements</h5>
+        <div>Bugfix: Ensure toolkit works on live sites.</div>
+      </div>
+      <div class="version v1.3.3">
+        <h4>Version 1.3.3</h4>
+        <h5>New Features</h5>
+        <div>The toolkit now works on live sites in addition to production ones.</div>
+      </div>
+      <div class="version v1.3.2">
+        <h4>Version 1.3.2</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>Copy containers to another layout (on-demand tool): </i>Skips "Container copy successful" alert.</div>
+        <div><i>Setup calendar widget skin (on-demand tool): </i>Confirms before overriding existing skin.</div>
+        <div><i>Setup default theme options (on-demand tool): </i>Added HR and Accordion default settings.</div>
+        <div><i>Setup default widget option sets (on-demand tool): </i>Added and tweaked option sets.</div>
+        <div><i>Setup default widget skin (on-demand tool): </i>Confirms before overriding existing skin.</div>
+        <div><i>Help Page: </i>Improved help links from menu.</div>
+        <div><i>Quick Link Autofill: </i>Checks for links as you type/if you paste, and when you turn on.</div>
+        <div><i>Graphic Link Autofill: </i>Checks for links when you turn on.</div>
+        <h5>New Features</h5>
+        <div><i>Copy secondary nav main item font styles to all secondary nav (on-demand tool): </i>Added tool.</div>
+        <div><i>Setup Graphic Links widget skin (on-demand tool): </i>Added tool.</div>
+        <div><i>Setup Share and Site Tools skin (on-demand tool): </i>Added tool.</div>
+        <div><i>Allow Open in New Tab: </i>Allows you to right-click and use "Open in new tab" with most modules.</div>
+      </div>
+      <div class="version v1.3.1">
+        <h4>Version 1.3.1</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>Copy containers to another layout (on-demand tool): </i>Include footer, skip feature column.</div>
+        <div><i>Setup default theme options (on-demand tool): </i>Modified default options.</div>
+        <div><i>Setup default widget option sets (on-demand tool): </i>Modified default option sets.</div>
+        <h5>New Features</h5>
+        <div><i>Set inheritance on containers with widgets (on-demand tool): </i>Added tool.</div>
+        <div><i>Import/Export Theme (on-demand tool): </i>Added tool.</div>
+      </div>
+      <div class="version v1.3">
+        <h4>Version 1.3</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>XML Major Change Alert: </i>Added additional checks for malformed XML.</div>
+        <div><i>Graphic Link Advanced Style Helper: </i>Removed loading block.</div>
+        <h5>New Features</h5>
+        <div><i>On-Demand Tools (Bookmarklet replacement): </i>Added a context menu with on-demand tools. Use the tools
+          or get information about them by right-clicking on a CivicPlus page and opening the toolkit menu.</div>
+      </div>
+      <div class="version v1.2.4">
+        <h4>Version 1.2.4</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>Keyboard Shortcuts: </i>Fixed Chrome inspector shortcut.</div>
+        <h5>New Features</h5>
+        <div><i>Input Field Focuser: </i>Automatically focus the first input in a form when any admin pages load.</div>
+        <div><i>Graphic Link Advanced Style Helper: </i>This tool will replace any selector for a Graphic Link in its
+          advanced styles with the correct selector.</div>
+      </div>
+      <div class="version v1.2.3">
+        <h4>Version 1.2.3</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>ADFS Redirect: </i>Fixed a bug where sometimes the login page would not automatically redirect to the
+          CivicPlus ADFS server.</div>
+        <div><i>Keyboard Shortcuts (Formerly Save Keyboard Shortcut): </i>Add shortcut to <i>Add Item</i> button. Rename
+          tool to reflect additional features. Improve load time so that shortcuts work immediately.</div>
+        <div><i>Quick Link Autofill: </i>Ensure the warning that a link was changed shows after a link has been changed.
+          Improve load time so that field is focused faster. Added additional keywords.</div>
+        <div><i>Graphic Link Autofill: </i>Ensure the warning that a link was changed shows after a link has been
+          changed. Added additional keywords.</div>
+        <br>
+        <div>General improvements to all tools improving tool load times.</div>
+      </div>
+      <div class="version v1.2.2">
+        <h4>Version 1.2.2</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>ADFS Redirect: </i>Will now detect when SAML is enabled on a site and redirect to the login page with
+          SAML turned off. Currently this only works on sites that are not on their production domain.</div>
+        <div>Fix fonts in menu.</div>
+        <h5>New Features</h5>
+        <div><i>Template List Tools: </i>Adds additional information to the template list.</div>
+      </div>
+      <div class="version v1.2.1">
+        <h4>Version 1.2.1</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>Quick Link Autofill: </i>Fix incorrect warning sometimes when link hasn't been changed. Disable
+          auto-change if a link is already entered.</div>
+        <div><i>Graphic Link Autofill: </i>Fix incorrect warning sometimes when link hasn't been changed. Disable
+          auto-change if a link is already entered.</div>
+        <div><i>Save Keyboard Shortcut: </i>Added a delay so that using the keyboard shortcut multiple times before the
+          page finishes doesn't cause multiple items to save.</div>
+      </div>
+      <div class="version v1.2.0">
+        <h4>Version 1.2.0</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>XML Major Change Alert: </i>Rather than an alert, the warning will show up below the XML upload tip. You
+          will also get a confirmation when no major changes are detected.</div>
+        <div><i>Title Changer: </i>Add support for the Graphic Links page.</div>
+        <div><i>Graphic Link Autofill &amp; Quick Link Autofill: </i>Add additional keywords to detect more links
+          automatically.</div>
+        <div>Added link to changelog on main menu.</div>
+        <h5>New Features</h5>
+        <div><i>Save Keyboard Shortcut: </i>Allows you to use a keyboard shortcut to save, save and push, or save and
+          publish the current item (Theme, Quick Link, etc.). On Windows, the shortcut is CTRL+S to save and
+          CTRL+SHIFT+S to save and
+          push/publish. On macOS it is &#8984;+S to save and &#8984;+SHIFT+S to save and push/publish.</div>
+      </div>
+      <div class="version v1.1.2">
+        <h4>Version 1.1.2</h4>
+        <h5>Feature Enhancements</h5>
+        <div><i>Quick Link Autofiller: </i>The text field is now focused on load.</div>
+        <div><i>Download CSS and XML: </i>Added option to download all CSS and all XML to the relevant menus.</div>
+        <h5>New Features</h5>
+        <div><i>XML Major Change Alert: </i>Alerts you to changes that could cause data loss when uploading a new XML
+          file.</div>
+      </div>
+      <div class="version v1.1.1">
+        <h4>Version 1.1.1</h4>
+        <div>Added link to help page on main menu. Fixed incorrect link to CivicPlus website. Bugfix on Quick Link
+          Autofiller, it now works properly. <i style="color: red;">NOTICE: If you had the plugin installed before
+            version 1.1, your favorite
+            modules tool may not work properly. Removing and re-adding the extension will fix this.</i></div>
+      </div>
+      <div class="version v1.1">
+        <h4>Version 1.1</h4>
+        <div>Reworked plugin. Added changelog, <a href="help.html">help page</a>. Fixed several bugs. Re-branded to
+          CivicPlus Internal Toolkit.</div>
+      </div>
+      <div class="version v1.0.6">
+        <h4>Version 1.0.6</h4>
+        <div>Bugfixes for Quick Link Autofiller.</div>
+      </div>
+      <div class="version v1.0.5">
+        <h4>Version 1.0.5</h4>
+        <div>Introduced Graphic Link Autofiller. Bugfixes to Quick Link Autofiller.</div>
+      </div>
+      <div class="version v1.0.4">
+        <h4>Version 1.0.4</h4>
+        <div>Introduced Quick Link Autofiller.</div>
+      </div>
+      <div class="version v1.0.3">
+        <h4>Version 1.0.3</h4>
+        <div>Introduced Pretty Login Loading Page.</div>
+      </div>
+      <div class="version v1.0.2">
+        <h4>Version 1.0.2</h4>
+        <div>Bugfix: ADFS redirect not working properly.</div>
+      </div>
+      <div class="version v1.0.1">
+        <h4>Version 1.0.1</h4>
+        <div>Add loading indicator to CSS and XML downloader.</div>
+      </div>
+      <div class="version v1.0">
+        <h4>Version 1.0</h4>
+        <div>Initial release. Introduced ADFS Redirect, Title Changer, Prevent Session Timeout, Frequently Used Module
+          Icons, and CSS and XML Downloader.</div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../js/changelog.js"></script>
+</body>
+
+</html>
